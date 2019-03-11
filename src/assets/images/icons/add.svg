@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>UI/Button/Circular/Medium/Normal</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="15" cy="15" r="15"></circle>
+        <filter x="-23.3%" y="-16.7%" width="146.7%" height="146.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0705882353   0 0 0 0 0.490196078   0 0 0 0 0.643137255  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-4" points="8.57142857 6.42857143 8.57142857 0 6.42857143 0 6.42857143 6.42857143 0 6.42857143 0 8.57142857 6.42857143 8.57142857 6.42857143 15 8.57142857 15 8.57142857 8.57142857 15 8.57142857 15 6.42857143"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Unleash-Trender---Trend---Tags" transform="translate(-521.000000, -849.000000)">
+            <g id="Details" transform="translate(520.000000, 851.000000)">
+                <g id="UI/Button/Circular/Small/Active" transform="translate(5.000000, 0.000000)">
+                    <g id="UI/Button/Circular/Small/Normal">
+                        <g id="Color/Aqua/3">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                                <circle stroke="#6BD1F6" stroke-width="1" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" cx="15" cy="15" r="14.5"></circle>
+                            </g>
+                        </g>
+                        <g id="Icons/Add" transform="translate(7.500000, 7.500000)">
+                            <g id="Group-2">
+                                <g id="Color/Aqua/3">
+                                    <mask id="mask-5" fill="white">
+                                        <use xlink:href="#path-4"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#4FC1E9" xlink:href="#path-4"></use>
+                                    <g id="Color/Aqua/4" mask="url(#mask-5)" fill="#4FC1E9">
+                                        <g transform="translate(-18.214286, -19.285714)" id="Rectangle-Copy">
+                                            <rect x="0" y="0" width="55" height="48"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

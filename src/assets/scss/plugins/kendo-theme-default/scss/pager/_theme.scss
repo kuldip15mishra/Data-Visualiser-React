@@ -1,0 +1,51 @@
+@include exports("pager/theme") {
+    $pager-text: $header-text !default;
+    $pager-bg: $header-bg !default;
+    $pager-items-hover-bg: $list-item-hovered-bg !default;
+    $pager-numbers-text: $accent !default;
+    $pager-numbers-selected-text: $accent-contrast !default;
+
+    .k-pager-wrap {
+        // color: $pager-text;
+        // background-color: $pager-bg;
+
+        .k-link,
+        .k-pager-nav {
+            &:focus {
+                box-shadow: $list-item-focused-shadow;
+            }
+            &:hover {
+                background-color: none;
+                border:1px solid $icon-color;
+                border-radius: 50%;
+            }
+        }
+
+        .k-state-selected {
+            &:focus {
+                box-shadow: none;
+            }
+            &:hover {
+                color: $selected-text;
+                background-color: $selected-bg;
+                cursor: default;
+            }
+        }
+    }
+    .k-pager-numbers {
+        .k-link,
+        .k-link:link {
+            color: $font-blue;
+            span.k-icon{
+                color: $font-blue !important;
+            }
+
+            &.k-state-selected {
+                color: $icon-color;
+                background-color: transparent !important;
+                border:1px solid $icon-color;
+                border-radius: 50%;
+            }
+        }
+    }
+}

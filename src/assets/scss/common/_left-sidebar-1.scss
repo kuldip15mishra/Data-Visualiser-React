@@ -1,0 +1,475 @@
+.side-panel {
+	
+	
+	&.side-panel-open {
+		.side-panel-wrapper {
+			@include transform(translateX(0px));	
+		}
+	}
+
+	
+	.side-panel-wrapper {
+		
+		position: fixed;
+		top: 60px	;
+		right: 0;
+		bottom: 0;
+		background-color: $default-white;
+		width: 400px;
+		border-left: 1px solid $border-color;
+		margin: 0px;
+		// overflow: hidden;
+		z-index: 1030;
+		@include transform(translateX(385px));	
+		@include transition(all 0.2s ease-out); 
+		
+		@include screen-mobile {
+			width: 270px;
+		}
+
+		> div {
+			height: 100%;
+		}
+
+		.nav-tabs {
+			border-bottom: 1px solid $border-color;
+			
+			>li {
+				background-color: $pale-grey;
+				
+				&.active {
+					
+					>a {
+						color: $font-highlight;
+						background-color: $white;
+						border: 0px;
+						border-bottom-color: transparent;
+						font-weight: 500;
+						&:hover,
+						&:focus {
+							color: $default-dark;
+							background-color: transparent;
+							border: 0px;
+							border-bottom-color: transparent;
+						}
+					}
+				}
+				
+				>a {
+					line-height: 1.42857143;
+					border: 0px;
+					
+					@include border-radius( 4px 4px 0 0);
+					color: $font-blue;
+					padding:0px 24px;
+					font-family: $font-primary;
+					font-size: nth($font-size,16);
+					line-height: 60px;
+					text-align: center;
+					min-height: 60px;
+					border-right: 2px solid $white;
+
+					@include screen-mobile {
+						padding:0px 15px;
+					}	
+					
+					&:hover, 
+					&:focus {
+						background-color: $white;
+						color: $default-dark;
+					}
+				}
+				&:last-child
+					{
+						a{
+							border-right: 0px;
+						}
+						
+					}
+			}
+			
+			.panel-close {
+				position: absolute;
+			    right: 0;
+			    top: 0px;
+			    line-height: $header-height;
+				border-left: 1px solid $border-color;
+
+				>a {
+					color: $default-text-color;
+					padding: 0px 20px;
+					display: block;
+
+					&:hover, 
+					&:focus {
+						color: $default-dark;
+					}
+				}
+			}
+		}
+		
+		.tab-content {
+			height: 100%;
+			padding:20px;
+			
+			.tab-pane {
+				height: 100%;
+
+				#accordion{
+					margin-top: -20px;
+					.card{
+						margin-right: -20px;
+						margin-left: -20px;
+						border:0px;
+						@include border-radius(0px);
+						
+						.card-header{
+						background:$white;
+						padding: 1.5rem 1.25rem;
+						border-bottom: solid 1px rgba(52, 90, 126, .08);
+
+						a{
+							font-size: nth($font-size,18);
+							font-family: $font-primary;
+							color:$font-blue;
+						}
+						}
+						.card-body{
+							background-color: rgba(52, 90, 126, 0.03);
+						}
+					}
+				}
+			}
+			
+		}
+		.side-btn
+		{
+			position: absolute;
+			left: -25px;
+			top: 40%;
+			width: 25px;
+			@include border-radius(5px);
+			z-index: 1400;
+			height: 90px;
+			display: block;
+			transform: perspective(42px) rotateY(145deg);
+			box-shadow: 2px 0px 6px 1px rgba(52, 90, 126, 0.3)
+		}
+	}
+
+	.profile {
+		height: calc(100vh - #{$header-height});
+		position: relative;
+	}
+}
+
+
+
+//control tab code
+
+.control-list
+{
+	list-style: none;
+	padding-left: 0px;
+	display: flex;
+    flex-wrap: wrap;
+	
+	li.control-item
+	{
+		width: 110px;
+		height: 110px;
+		margin-right:14px;
+		margin-bottom: 15px;
+		background: $pale-grey-light;
+		&:nth-child(3n)
+		{
+			margin-right:0px;
+		}
+	a{
+		width: 110px;
+		height: 110px;
+		
+		img{
+			height: 50px;
+			width: 50px;
+			margin:21px 30px 5px 30px;
+		}
+		.control-title
+		{
+			color:$font-blue;
+			font-size:nth($font-size,14);
+			text-align: center;
+			padding-top: 5px;
+    display: block;
+		}
+	}
+	}
+}
+
+
+.variable-list
+{
+	.variable-list-title
+	{
+		span{
+			font-family: $font-secondary;
+		color:$font-blue;
+		font-size:nth($font-size,16px);
+		padding-bottom: 13px;
+		}
+		
+	}
+	
+	ul{
+		list-style: none;
+		padding-left:0px;
+		li{
+			padding-top: 22px;
+			padding-bottom: 22px;
+			
+			border-top: solid 1px rgba(52, 90, 126, 0.08);
+			a{
+				font-family: $font-primary;
+				font-size: nth($font-size,14);
+				color:$font-blue;
+			}
+			&:first-child{
+				border-top:0px;
+			}
+		}
+		
+	}
+}
+
+
+.sb-1{
+	position: fixed;
+	top:50px;
+	width:200px;
+	height: 100%;
+	background: $dark-blue;
+	padding:20px 30px;
+	z-index: 201;
+	transform: translateX(-185px);
+	transition: transform .5s;
+	@include screen-laptop {
+		width: 140px;
+		padding:15px 15px 5px;
+		top:36px;
+		transform: translateX(-126px);
+	  }
+	  @include screen-mobile {
+		width: 100%;
+		padding:15px 15px 5px;
+		top:0px;
+		transform: translateX(-126px);
+		z-index: 2010;
+	  }
+
+	h3{
+		font-family: $font-secondary;
+		font-weight: 400;
+		@include screen-laptop {
+			font-size:nth($font-size, 14 );
+			font-weight: 400;
+		  }
+		  @include screen-mobile{
+			  display: none;
+		  }
+	}
+
+	.mobile-topbar{
+		display: none;
+		position: relative;
+		@include screen-mobile{
+			display: block;
+			background-image: linear-gradient(148deg, #3bafda, #4fc1e9);
+			height: 44px;
+			margin: -15px;
+			margin-bottom: 15px;
+			a.mytrend-hide{
+				position: absolute;
+				color:$white;
+				font-size: 18px;
+				left: 15px;
+				top: 10px;
+			}
+			p{
+				text-align: center;
+				color:$white;
+				font-size: 18px;
+				padding-top: 5px;
+				padding-top: 7px;
+    			font-weight: 500;
+			}
+		}
+	}
+	.new-trend
+	{
+		width: 140px;
+		padding: 10px 20px;
+		@include border-radius(6px);
+		display: block;
+		background: #FFF;
+		font-size: nth($font-size,17);
+		color:$icon-color;
+		box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+		span{
+			vertical-align: text-bottom;
+		}
+			@include screen-laptop{
+				width: 110px;
+				padding: 7px 17px;
+			font-size: nth($font-size,14);
+			}
+			@include screen-mobile{
+				text-align: center;
+    margin: 0 auto;
+	margin-bottom: 15px;
+	width:86%;
+	display: none;
+			}
+		i{
+			position: relative;
+   			 top: 2px;
+			margin-right:5px;
+			font-size: nth($font-size,18);
+			@include screen-laptop{
+			font-size: nth($font-size,18);
+			}
+		}
+	}
+
+	ul.trend-list
+	{
+		list-style: none;
+		margin-left: 0px;
+		padding-left: 0px;
+		position: relative;
+		height: 80vh;
+		overflow-y: auto;
+		overflow-x:hidden;
+		margin-right: -12px;
+		@include screen-mobile{
+			text-align: center;
+			margin-left: -10px;
+		}
+		li{
+			margin-bottom:8px;
+			position: relative;
+			@include screen-mobile{
+				display: inline-block;
+				margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+			}
+			.trend-name{
+			font-size:nth($font-size,14);
+			font-family: $font-primary;
+			font-weight: normal;
+			text-overflow: ellipsis;
+			overflow:hidden;
+			white-space:nowrap;
+			color:$white;
+			margin-top: 2px;
+			@include screen-laptop {
+				font-size:nth($font-size, 12 );
+			  }
+			  @include screen-mobile{
+				  text-align: left;
+				  margin-bottom: 5px;
+			  }
+			  
+			}
+			.delete-trend{
+				background: none;
+				border: 0px;
+				cursor: pointer;
+				color: $white;
+				position: absolute;
+				bottom: 3px;
+				right: 15px;
+				display: none;
+				&:hover{
+					color:$danger;
+				}
+			}
+			a{
+				width: 140px;
+    			height: 119px;
+    			display: block;
+				margin-top: 1px;
+				position: relative;
+				@include border-radius(6px);
+				@include screen-laptop {
+					width: 110px;
+					height:90px;
+				  }
+				  @include screen-mobile{
+					width: 150px;
+					height: 123px;
+				  }
+				&:nth-child(n)
+				{
+					background: url('../../assets/images/dummy-trend.png');
+					background-size: cover;
+					&:hover{
+						background: url('../../assets/images/dummy-trend-hover.png');
+					background-size: cover;
+					}
+				}
+				// &:hover:after{
+				// 	content: url('../../assets/images/icons/browser.png');
+				// 	padding-top: 30%;
+				// 	padding-left: 38%;
+				// 	background-color: #2a3b4c;
+				// 	opacity: .37;
+				// 	top: 0px;
+				// 	bottom: 0px;
+				// 	left: 0px;
+				// 	right: 0px;
+				// 	position: absolute;
+					
+				// }
+				
+			}
+			&:hover .delete-trend{
+				display: block !important;
+		}
+			
+		}	
+	}
+	.sb-1-toggle-btn #sb-1-toggle-btn
+		{
+			position: absolute;
+    		right: -13px;
+    		top: 40%;
+    		width: 21px;
+    		@include border-radius(0px 14px 14px 0px);
+			z-index: 210;
+			height: 50px;
+			display: block;
+			background: $dark-blue;
+			padding-top: 14px;
+    		padding-left: 6px;
+			// transform: perspective(42px) rotateY(145deg);
+			// box-shadow: 2px 0px 6px 1px rgba(52, 90, 126, 0.3);
+			i{
+				color:$info;
+				font-size: 20px;
+				
+
+			}
+			@include screen-laptop{
+				width: 12px;
+				right: -12px;
+				height: 42px;
+				padding-top: 11px;
+				padding-left: 1px;
+				i{
+					font-size: 16px;
+
+				}
+			}
+		}
+}

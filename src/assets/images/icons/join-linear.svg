@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 24</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.2600692,10.2810438 C19.7618617,9.85618876 20.4110128,9.6 21.12,9.6 C22.7105801,9.6 24,10.8894199 24,12.48 C24,14.0705801 22.7105801,15.36 21.12,15.36 C19.5294199,15.36 18.24,14.0705801 18.24,12.48 C18.24,11.9166355 18.4017567,11.3910512 18.6813592,10.9471583 L17.1738984,9.80237175 L13.9800503,14.4833751 L11.2222302,12.1763278 L7.16165633,18.6491861 L4.0063832,16.4008161 L2.14236576,19.304424 L2.04412145,19.2413545 L2.04412145,21.6595612 L23.185287,21.6595612 L23.185287,22.6402481 L2.04412145,22.6402481 L2.04412145,23.5666917 L1.06343454,23.5666917 L1.06343454,22.6402481 L0.516694094,22.6402481 L0.516694094,21.6595612 L1.06343454,21.6595612 L1.06343454,0.898098811 L2.04412145,0.898098811 L2.04412145,17.8276241 L3.76470296,15.1474485 L6.91206708,17.3901827 L11.0128502,10.8532278 L13.8000998,13.1848942 L16.9686769,8.54092884 L19.2600692,10.2810438 Z" id="path-1"></path>
+        <circle id="path-3" cx="1.92" cy="1.92" r="1.92"></circle>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Trender/JoinType1">
+            <g id="Group-24">
+                <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+                <g id="Group">
+                    <g id="Colors/Trender/Primary/5">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#272C36" xlink:href="#path-1"></use>
+                        <g id="Color/Black/2" mask="url(#mask-2)" fill="#2D4862">
+                            <g transform="translate(-4.800000, -4.800000)" id="Rectangle-Copy">
+                                <rect x="0" y="0" width="34.0289362" height="34.1581395"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Colors/Trender/Primary/5" transform="translate(19.200000, 10.560000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="#6BA5FF" xlink:href="#path-3"></use>
+                        <g id="Color/Trender/Primary/2" mask="url(#mask-4)" fill="#4FC1E9" fill-rule="nonzero">
+                            <g transform="translate(-19.200000, -10.560000)" id="Rectangle-12-Copy-9">
+                                <rect x="0" y="0" width="35" height="35"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

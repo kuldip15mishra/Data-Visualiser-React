@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Trender/Renderer24</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M23,22 L24,22 L24,23 L2,23 L2,24 L1,24 L1,23 L0,23 L0,22 L1,22 L1,0 L2,0 L2,22 L4,22 L4,11 L9,11 L9,22 L11,22 L11,7 L16,7 L16,22 L18,22 L18,17 L23,17 L23,22 Z" id="path-1"></path>
+        <path d="M0,4 L3,4 L3,14 L0,14 L0,4 Z M7,0 L10,0 L10,14 L7,14 L7,0 Z M14,10 L17,10 L17,14 L14,14 L14,10 Z" id="path-3"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Trender/Renderer2">
+            <g>
+                <rect id="Rectangle-6" x="0" y="0" width="24" height="24"></rect>
+                <g id="Group">
+                    <g id="Colors/Trender/Primary/5">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#CECECE" xlink:href="#path-1"></use>
+                        <g id="Color/Black/2" mask="url(#mask-2)" fill="#2D4862">
+                            <g transform="translate(-5.000000, -5.000000)" id="Rectangle-Copy">
+                                <rect x="0" y="0" width="35" height="35"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Colors/Trender/Primary/5" transform="translate(5.000000, 8.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="#CECECE" xlink:href="#path-3"></use>
+                        <g id="Color/Trender/Primary/2" mask="url(#mask-4)" fill="#4FC1E9" fill-rule="nonzero">
+                            <g transform="translate(-5.000000, -8.000000)" id="Rectangle-12-Copy-9">
+                                <rect x="0" y="0" width="35" height="35"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

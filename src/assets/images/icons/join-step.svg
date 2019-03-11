@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="23px" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Trender/JoinType27</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.5054635,10.2927246 C18.9625048,9.30801995 19.9613497,8.625 21.12,8.625 C22.7105801,8.625 24,9.91218134 24,11.5 C24,13.0878187 22.7105801,14.375 21.12,14.375 C19.5294199,14.375 18.24,13.0878187 18.24,11.5 C18.24,11.4161321 18.2435974,11.333103 18.2506465,11.2510579 L16.1501786,11.2510579 L16.1501786,5.99867467 L13.9960714,5.99867467 L13.9960714,13.6043229 L10.3220213,13.6043229 L10.3220213,8.37605794 L7.28742188,8.37605794 L7.28742188,17.851064 L3.24257813,17.851064 L3.24257813,12.6976827 L1.92,12.6976827 L1.92,21.0825 L23.02,21.0825 L23.02,22.0425 L1.92,22.0425 L1.92,23 L0.96,23 L0.96,22.0425 L0.02,22.0425 L0.02,21.0825 L0.96,21.0825 L0.96,0 L1.92,0 L1.92,11.7393494 L4.20257813,11.7393494 L4.20257813,16.8927307 L6.32742187,16.8927307 L6.32742187,7.41772461 L11.2820213,7.41772461 L11.2820213,12.6459896 L13.0360714,12.6459896 L13.0360714,5.04034133 L17.1101786,5.04034133 L17.1101786,10.2927246 L18.5054635,10.2927246 Z" id="path-1"></path>
+        <ellipse id="path-3" cx="1.92" cy="1.91666667" rx="1.92" ry="1.91666667"></ellipse>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Trender/JoinType2">
+            <g>
+                <rect id="Rectangle-6" x="0" y="0" width="24" height="24"></rect>
+                <g id="Group">
+                    <g id="Colors/Trender/Primary/5">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#CECECE" xlink:href="#path-1"></use>
+                        <g id="Color/Black/2" mask="url(#mask-2)" fill="#2D4862">
+                            <g transform="translate(-3.840000, -5.750000)" id="Rectangle-Copy">
+                                <rect x="0" y="0" width="34.0289362" height="34.1581395"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Colors/Trender/Primary/5" transform="translate(19.200000, 9.583333)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="#CECECE" xlink:href="#path-3"></use>
+                        <g id="Color/Trender/Primary/2" mask="url(#mask-4)" fill="#4FC1E9" fill-rule="nonzero">
+                            <g transform="translate(-19.200000, -9.583333)" id="Rectangle-12-Copy-9">
+                                <rect x="0" y="0" width="35" height="35"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

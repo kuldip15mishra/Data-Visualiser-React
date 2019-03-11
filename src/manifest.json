@@ -1,0 +1,22 @@
+{
+    "short_name":"Trender",
+    "Name":"Ulsh Trender",
+    "description":"Unlsh Trender App",
+    "icons":[
+        {
+            "src":"https://www.pngrepo.com/png/300959/170/bar-chart-stand.png",
+            "type":"image/png",
+            "sizes":"96x96"
+        },
+        {
+            "src":"https://www.pngrepo.com/png/300959/170/bar-chart-stand.png",
+            "type":"image/png",
+            "sizes":"192x192"
+        }
+    ],
+    "start_url":"https://trender.ddriven.xyz",
+    "display":"standalone",
+    "background_color":"#3bafda",
+    "theme_color":"#3bafda",
+    "scope":"/"
+}

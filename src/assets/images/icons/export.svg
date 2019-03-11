@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>UI/Button/Circular/Medium/Active Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="17" cy="17" r="17"></circle>
+        <filter x="-20.6%" y="-14.7%" width="141.2%" height="141.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0705882353   0 0 0 0 0.490196078   0 0 0 0 0.643137255  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M17.1915277,6.17585633 L9.91803703,0.0502118644 C9.85566773,0.00140693402 9.76343143,-0.0136099676 9.68305409,0.0130867464 C9.60223753,0.038532052 9.54997029,0.0998510672 9.54997029,0.168261397 L9.5609508,3.08237459 C5.88511484,3.13660229 0,6.1604223 0,15.7316114 C0,15.8271356 0.0729105951,15.9076429 0.173052858,15.9209912 C0.182276488,15.9222427 0.192378558,15.9230769 0.201162967,15.9230769 C0.289885498,15.9230769 0.3693844,15.8684321 0.395298407,15.7862563 C1.71559509,11.5886151 6.32477451,9.51503127 8.97195618,9.51503127 C9.22143339,9.51503127 9.42259636,9.52128832 9.56139003,9.52545968 L9.55040951,12.4729438 C9.55040951,12.5413541 9.60311597,12.6030902 9.68349331,12.6285356 C9.76562754,12.654398 9.85742461,12.6397982 9.91847625,12.5909933 L17.1928454,6.44449202 C17.2692697,6.37024178 17.2692697,6.25010657 17.1915277,6.17585633 Z" id="path-4"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Unleash-Trender---Trend---Tags" transform="translate(-1816.000000, -67.000000)">
+            <g id="New-Trend" transform="translate(520.000000, 69.000000)">
+                <g id="Top-Buttons" transform="translate(1256.000000, 0.000000)">
+                    <g id="UI/Button/Circular/Medium/Active" transform="translate(44.000000, 0.000000)">
+                        <g id="UI/Button/Circular/Medium/Normal">
+                            <g id="Color/Aqua/3">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Mask">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                                    <circle stroke="#6BD1F6" stroke-width="1" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" cx="17" cy="17" r="16.5"></circle>
+                                </g>
+                            </g>
+                            <g id="Icons/Trender/Share" transform="translate(8.000000, 8.000000)">
+                                <g transform="translate(0.000000, 0.750000)" id="Color/Trender/Primary/4">
+                                    <g>
+                                        <mask id="mask-5" fill="white">
+                                            <use xlink:href="#path-4"></use>
+                                        </mask>
+                                        <use id="Mask" fill="#689FF5" fill-rule="nonzero" xlink:href="#path-4"></use>
+                                        <g id="Color/Trender/Primary/2" mask="url(#mask-5)" fill="#4FC1E9" fill-rule="nonzero">
+                                            <g transform="translate(-3.750000, -5.250000)" id="Rectangle-12-Copy-9">
+                                                <rect x="0" y="0" width="25.8156028" height="25.8156028"></rect>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,181 @@
+/* =============
+   Modals
+============= */
+
+.modal {
+  .modal-dialog {
+
+    .close {
+      top: 15px;
+      position: absolute;
+      right: 15px;
+      opacity: 1;
+      font-size:16px;
+      text-shadow: none;
+      color: $font-grey;
+      z-index:1010;
+      padding: 0;
+    }
+
+    .modal-title {
+      margin: 0;
+    }
+
+    .modal-content {
+      border: none;
+      box-shadow: none;
+      border-radius: 0px;
+
+      .modal-header {
+        border-bottom-width: 0px;
+        margin: 0;
+        padding: 0px !important;
+      }
+      .modal-body {
+        padding: 20px;
+      }
+      .modal-footer {
+        border-top: 0px;
+      }
+
+      .heading{
+        font-family: $font-secondary;
+        font-size: nth($font-size,18);
+        color:$font-blue;
+        font-weight: 500;
+        display: block;
+        text-align: center;
+        @include screen-laptop{
+          font-size: nth($font-size,14);
+        }
+      }
+      .sub-heading{
+        font-family: $font-primary;
+        font-size: nth($font-size,16);
+        color:$font-grey-text;
+        display: block;
+        text-align: center;
+        @include screen-laptop{
+          font-size: nth($font-size,12);
+          letter-spacing: .4px;
+          font-weight:300;
+        }
+        
+      }
+      .input-group input[type="text"]{
+        background-color: #f4f4f4;
+      }
+
+      input[type="text"].trend-name{
+        background-color: #f4f4f4;
+        margin-top:20px;
+      }
+      button.save{
+        width: 175px;
+        border-radius: 22px;
+        box-shadow: 0 2px 4px 0 rgba(18, 125, 164, 0.05);
+        background-color: #ffffff;
+        border: solid 1px #6bd1f6;
+       padding-bottom: 9px;
+       padding-top: 9px;
+        font-size: 16px;
+        color: #119fd1;
+        &:hover{
+          background-color:#6bd1f6;
+          color:$white;
+        }
+        @include screen-laptop{
+          width: 100px;
+          padding-bottom: 5px;
+       padding-top: 5px;
+        font-size: 12px;
+        }
+      }
+
+      button.copy-btn{
+        background-color: #4ec0e8;
+    border: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 3px;
+    color: #FFF;
+      }
+    }
+  }
+}
+
+.modal-backdrop {
+  background-color: #58666d;
+  opacity: 0.3 !important;
+}
+.modal-backdrop.show {
+  opacity: .6;
+}
+
+.modal-full {
+  width: 98%;
+}
+
+.modal-content {
+  .nav.nav-tabs + .tab-content {
+    margin-bottom: 0;
+  }
+  .panel-group {
+    margin-bottom: 0;
+  }
+  .panel {
+    border-top: none;
+  }
+}
+
+/* Custom-modal */
+.custombox-open {
+  body {
+    padding-right: 0 !important;
+  }
+}
+
+.modal-demo {
+  background-color: $white;
+  width: 600px !important;
+  border-radius: 4px;
+  display: none;
+
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    color: $light;
+  }
+}
+
+@media (max-width: 768px ) {
+  .modal-demo {
+    width: 100% !important;
+  }
+}
+
+.custom-modal-title {
+  padding: 15px 25px 15px 25px;
+  line-height: 22px;
+  font-size: 18px;
+  background-color: $dark;
+  color: $white;
+  text-align: left;
+  margin: 0;
+}
+
+.custom-modal-text {
+  padding: 20px;
+}
+
+.custombox-modal-wrapper {
+  text-align: left;
+}
+
+.custombox-modal-flash, .custombox-modal-rotatedown {
+  .close {
+    top: 20px;
+    z-index: 9999;
+  }
+}

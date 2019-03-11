@@ -1,0 +1,34 @@
+@include exports("notification/theme") {
+
+    $success-color:#5da475;
+    $error-color:#ed6a6a;
+    $warning-color:#daa853;
+    $info-color:#35495c;
+    $shadow:0 2px 4px 0 rgba(0, 0, 0, 0.08);
+
+    // Theme
+    .k-notification {
+        @include appearance( panel );
+    }
+    .k-notification-info {
+        // border-color: $notification-info-border;
+        color: $white;
+        background-color: $info-color;
+    }
+    .k-notification-success {
+        // border-color: $notification-success-border;
+        color: $white;
+        background-color: $success-color;
+    }
+    .k-notification-warning {
+        // border-color: $notification-warning-border;
+        color: $white;
+        background-color: $warning-color;
+    }
+    .k-notification-error {
+        // border-color: $notification-error-border;
+        color: $white;
+        background-color: $error-color;
+    }
+
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.1009562,4.22540257 L14.1537949,3.40910506 L12.0502322,6.68002154 L9.14020152,4.42776461 L6.49921639,7.82345622 L2,4.43566788 L2,10 L1,10 L1,0 L2,0 L2,3.58114477 L2.19089617,3.3276215 L6.31426018,6.43240315 L8.96331411,3.02633695 L11.7993772,5.22134565 L13.9350723,1.90046525 L15.5394792,3.28320068 C16.0817866,2.5074106 16.9816373,2 18,2 C19.6568542,2 21,3.34314575 21,5 C21,6.65685425 19.6568542,8 18,8 C16.3431458,8 15,6.65685425 15,5 C15,4.73215266 15.0351018,4.47250379 15.1009562,4.22540257 Z M15.0121623,17.728024 L13.2530913,16.3410162 L8.99418378,18.2842098 L6.37280217,16.0073418 L2.75209198,22 L24,22 L24,23 L2,23 L2,24 L1,24 L1,23 L0,23 L0,22 L1,22 L1,14 L2,14 L2,21.3110454 L6.13140884,14.4731269 L9.16429837,17.1074207 L13.393114,15.177957 L15.3032555,16.6840822 C15.790787,15.6868421 16.8151832,15 18,15 C19.6568542,15 21,16.3431458 21,18 C21,19.6568542 19.6568542,21 18,21 C16.3431458,21 15,19.6568542 15,18 C15,17.9083228 15.0041122,17.817606 15.0121623,17.728024 Z" id="path-1"></path>
+        <path d="M2,17 C0.8954305,17 0,16.1045695 0,15 C0,13.8954305 0.8954305,13 2,13 C3.1045695,13 4,13.8954305 4,15 C4,16.1045695 3.1045695,17 2,17 Z M2,4 C0.8954305,4 0,3.1045695 0,2 C0,0.8954305 0.8954305,0 2,0 C3.1045695,0 4,0.8954305 4,2 C4,3.1045695 3.1045695,4 2,4 Z" id="path-3"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Trender/PlotSplit2">
+            <g id="Group">
+                <rect id="Rectangle-6" x="0" y="0" width="24" height="24"></rect>
+                <g id="Color/Trender/Primary/4">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#CECECE" xlink:href="#path-1"></use>
+                    <g id="Color/Black/2" mask="url(#mask-2)" fill="#2D4862">
+                        <g transform="translate(-5.000000, -6.000000)" id="Rectangle-Copy">
+                            <rect x="0" y="0" width="35" height="35"></rect>
+                        </g>
+                    </g>
+                </g>
+                <g id="Color/Trender/Primary/4" transform="translate(16.000000, 3.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Mask" fill="#CECECE" xlink:href="#path-3"></use>
+                    <g id="Color/Trender/Primary/2" mask="url(#mask-4)" fill="#4FC1E9" fill-rule="nonzero">
+                        <g transform="translate(-16.000000, -3.000000)" id="Rectangle-12-Copy-9">
+                            <rect x="0" y="0" width="35" height="35"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
